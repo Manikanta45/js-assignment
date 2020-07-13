@@ -1,0 +1,22 @@
+<html>
+  <h1>
+      Displaying Time And Date
+      </h1>
+      <body>
+    <script>
+     date = new Date();
+       day = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    	document.writeln("Today is : " + day[date.getDay()]);
+      
+       hrs = date.getHours();
+      if(hrs < 12){
+      	hrs = hrs + " AM"
+      }else if (hrs == 12){
+      	hrs = hrs + " PM"
+      }else{
+      	hrs = (hrs - 12) + " PM"
+      }
+      document.writeln("Current time is : " + hrs + " : " + date.getMinutes() + " : " + date.getSeconds());
+    </script>
+    </body>
+    </html>
