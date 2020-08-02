@@ -1,0 +1,53 @@
+html,
+body {
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+      
+}
+
+.container
+{
+
+    text-align: center;
+}
+p 
+{
+    color: orangered;
+   font-family: 'timesnewroman',
+   serif;
+    letter-spacing: 0.09em;
+    text-transform: lowercase;
+    font-size: 2.5em;
+    font-variant: small-caps;
+    padding: 10px;
+    padding-right:30px;
+}
+#quo
+ {
+    outline: none;
+    
+    text-decoration: none;
+    opacity: 0.6;
+    margin-top: 0px;
+    background-color: violet;
+    color: rgb(7, 15, 1);
+    border: thin solid rgb(83, 16, 16);
+    height: 40px;
+    width: 200px;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+#quo:hover {
+    background-color: white;
+    color: orange;
+    border: thin solid black;
+    opacity: 0.8;
+}
